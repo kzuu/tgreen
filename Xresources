@@ -1,0 +1,53 @@
+! special
+#define bg             #181818
+#define fg             #c8c8c8
+#define black          #252525
+#define red            #bababa
+#define green          #8fea26
+#define yellow         #aeaeae
+#define blue           #b2ff59
+#define magenta        #9e9e9e
+#define cyan           #c6ff00
+#define grey           #989898
+#define brightblack    #323232
+#define brightred      #bababa
+#define brightgreen	#8fea26
+#define brightyellow	#aeaeae
+#define brightblue     #b2ff59
+#define brightmagenta  #9e9e9e
+#define brightcyan	    #c6ff00
+#define white		    #c4c4c4
+
+*.background:          bg
+*.foreground:          fg
+*.cursorColor:         fg
+
+*.color0:              black
+*.color8:              brightblack
+*.color1:              red
+*.color9:              brightred
+*.color2:              green
+*.color10:             brightgreen
+*.color3:              yellow
+*.color11:             brightyellow
+*.color4:              blue
+*.color12:             brightblue
+*.color5:              magenta
+*.color13:             brightmagenta
+*.color6:              cyan
+*.color14:             brightcyan
+*.color7:              grey
+*.color15:             white
+
+dwm.normbgcolor:       bg
+dwm.normfgcolor:       magenta
+dwm.normbordercolor:   bg
+dwm.selbgcolor:        black
+dwm.selfgcolor:        green
+dwm.selbordercolor:    grey
+dwm.invcolor:          magenta
+
+dmenu.background:      bg
+dmenu.foreground:      fg
+dmenu.selbackground:   black
+dmenu.selforeground:   green
